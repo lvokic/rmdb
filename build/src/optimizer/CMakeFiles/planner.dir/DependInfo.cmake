@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/src/optimizer/planner.cpp" "src/optimizer/CMakeFiles/planner.dir/planner.cpp.o" "gcc" "src/optimizer/CMakeFiles/planner.dir/planner.cpp.o.d"
+  "/media/psf/Home/DB2023/rmdb/src/optimizer/planner.cpp" "src/optimizer/CMakeFiles/planner.dir/planner.cpp.o" "gcc" "src/optimizer/CMakeFiles/planner.dir/planner.cpp.o.d"
   )
 
 # Targets to which this target links.

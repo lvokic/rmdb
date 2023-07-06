@@ -1,7 +1,7 @@
 src/storage/CMakeFiles/storage.dir/disk_manager.cpp.o: \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/storage/disk_manager.cpp \
+ /media/psf/Home/DB2023/rmdb/src/storage/disk_manager.cpp \
  /usr/include/stdc-predef.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/storage/disk_manager.h \
+ /media/psf/Home/DB2023/rmdb/src/storage/disk_manager.h \
  /usr/include/fcntl.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
@@ -191,17 +191,16 @@ src/storage/CMakeFiles/storage.dir/disk_manager.cpp.o: \
  /usr/include/c++/11/bits/node_handle.h \
  /usr/include/c++/11/bits/unordered_map.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/common/config.h \
+ /media/psf/Home/DB2023/rmdb/src/common/config.h \
  /usr/include/c++/11/chrono /usr/include/c++/11/ratio \
  /usr/include/c++/11/limits /usr/include/c++/11/ctime \
  /usr/include/c++/11/bits/parse_numbers.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/errors.h \
- /usr/include/c++/11/cstring /usr/include/string.h /usr/include/strings.h \
- /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_uninitialized.h \
+ /media/psf/Home/DB2023/rmdb/src/errors.h /usr/include/c++/11/cstring \
+ /usr/include/string.h /usr/include/strings.h /usr/include/c++/11/vector \
+ /usr/include/c++/11/bits/stl_uninitialized.h \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc /usr/include/assert.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/defs.h \
- /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
- /usr/include/c++/11/bits/stl_map.h \
+ /media/psf/Home/DB2023/rmdb/src/defs.h /usr/include/c++/11/map \
+ /usr/include/c++/11/bits/stl_tree.h /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/stl_multimap.h

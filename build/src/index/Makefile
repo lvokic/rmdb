@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb"
+CMAKE_SOURCE_DIR = /media/psf/Home/DB2023/rmdb
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build"
+CMAKE_BINARY_DIR = /media/psf/Home/DB2023/rmdb/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/CMakeFiles" "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/src/index//CMakeFiles/progress.marks"
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/index/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/CMakeFiles" 0
+	cd /media/psf/Home/DB2023/rmdb/build && $(CMAKE_COMMAND) -E cmake_progress_start /media/psf/Home/DB2023/rmdb/build/CMakeFiles /media/psf/Home/DB2023/rmdb/build/src/index//CMakeFiles/progress.marks
+	cd /media/psf/Home/DB2023/rmdb/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/index/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/psf/Home/DB2023/rmdb/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/index/clean
+	cd /media/psf/Home/DB2023/rmdb/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/index/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/index/preinstall
+	cd /media/psf/Home/DB2023/rmdb/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/index/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/index/preinstall
+	cd /media/psf/Home/DB2023/rmdb/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/index/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /media/psf/Home/DB2023/rmdb/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/index/CMakeFiles/index.dir/rule:
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/index/CMakeFiles/index.dir/rule
+	cd /media/psf/Home/DB2023/rmdb/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/index/CMakeFiles/index.dir/rule
 .PHONY : src/index/CMakeFiles/index.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ index: src/index/CMakeFiles/index.dir/rule
 
 # fast build rule for target.
 index/fast:
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" && $(MAKE) $(MAKESILENT) -f src/index/CMakeFiles/index.dir/build.make src/index/CMakeFiles/index.dir/build
+	cd /media/psf/Home/DB2023/rmdb/build && $(MAKE) $(MAKESILENT) -f src/index/CMakeFiles/index.dir/build.make src/index/CMakeFiles/index.dir/build
 .PHONY : index/fast
 
 ix_index_handle.o: ix_index_handle.cpp.o
@@ -190,7 +190,7 @@ ix_index_handle.o: ix_index_handle.cpp.o
 
 # target to build an object file
 ix_index_handle.cpp.o:
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" && $(MAKE) $(MAKESILENT) -f src/index/CMakeFiles/index.dir/build.make src/index/CMakeFiles/index.dir/ix_index_handle.cpp.o
+	cd /media/psf/Home/DB2023/rmdb/build && $(MAKE) $(MAKESILENT) -f src/index/CMakeFiles/index.dir/build.make src/index/CMakeFiles/index.dir/ix_index_handle.cpp.o
 .PHONY : ix_index_handle.cpp.o
 
 ix_index_handle.i: ix_index_handle.cpp.i
@@ -198,7 +198,7 @@ ix_index_handle.i: ix_index_handle.cpp.i
 
 # target to preprocess a source file
 ix_index_handle.cpp.i:
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" && $(MAKE) $(MAKESILENT) -f src/index/CMakeFiles/index.dir/build.make src/index/CMakeFiles/index.dir/ix_index_handle.cpp.i
+	cd /media/psf/Home/DB2023/rmdb/build && $(MAKE) $(MAKESILENT) -f src/index/CMakeFiles/index.dir/build.make src/index/CMakeFiles/index.dir/ix_index_handle.cpp.i
 .PHONY : ix_index_handle.cpp.i
 
 ix_index_handle.s: ix_index_handle.cpp.s
@@ -206,7 +206,7 @@ ix_index_handle.s: ix_index_handle.cpp.s
 
 # target to generate assembly for a file
 ix_index_handle.cpp.s:
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" && $(MAKE) $(MAKESILENT) -f src/index/CMakeFiles/index.dir/build.make src/index/CMakeFiles/index.dir/ix_index_handle.cpp.s
+	cd /media/psf/Home/DB2023/rmdb/build && $(MAKE) $(MAKESILENT) -f src/index/CMakeFiles/index.dir/build.make src/index/CMakeFiles/index.dir/ix_index_handle.cpp.s
 .PHONY : ix_index_handle.cpp.s
 
 ix_scan.o: ix_scan.cpp.o
@@ -214,7 +214,7 @@ ix_scan.o: ix_scan.cpp.o
 
 # target to build an object file
 ix_scan.cpp.o:
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" && $(MAKE) $(MAKESILENT) -f src/index/CMakeFiles/index.dir/build.make src/index/CMakeFiles/index.dir/ix_scan.cpp.o
+	cd /media/psf/Home/DB2023/rmdb/build && $(MAKE) $(MAKESILENT) -f src/index/CMakeFiles/index.dir/build.make src/index/CMakeFiles/index.dir/ix_scan.cpp.o
 .PHONY : ix_scan.cpp.o
 
 ix_scan.i: ix_scan.cpp.i
@@ -222,7 +222,7 @@ ix_scan.i: ix_scan.cpp.i
 
 # target to preprocess a source file
 ix_scan.cpp.i:
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" && $(MAKE) $(MAKESILENT) -f src/index/CMakeFiles/index.dir/build.make src/index/CMakeFiles/index.dir/ix_scan.cpp.i
+	cd /media/psf/Home/DB2023/rmdb/build && $(MAKE) $(MAKESILENT) -f src/index/CMakeFiles/index.dir/build.make src/index/CMakeFiles/index.dir/ix_scan.cpp.i
 .PHONY : ix_scan.cpp.i
 
 ix_scan.s: ix_scan.cpp.s
@@ -230,7 +230,7 @@ ix_scan.s: ix_scan.cpp.s
 
 # target to generate assembly for a file
 ix_scan.cpp.s:
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" && $(MAKE) $(MAKESILENT) -f src/index/CMakeFiles/index.dir/build.make src/index/CMakeFiles/index.dir/ix_scan.cpp.s
+	cd /media/psf/Home/DB2023/rmdb/build && $(MAKE) $(MAKESILENT) -f src/index/CMakeFiles/index.dir/build.make src/index/CMakeFiles/index.dir/ix_scan.cpp.s
 .PHONY : ix_scan.cpp.s
 
 # Help Target
@@ -264,6 +264,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /media/psf/Home/DB2023/rmdb/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

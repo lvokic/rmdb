@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb"
+CMAKE_SOURCE_DIR = /media/psf/Home/DB2023/rmdb
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build"
+CMAKE_BINARY_DIR = /media/psf/Home/DB2023/rmdb/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/CMakeFiles" "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/src/storage//CMakeFiles/progress.marks"
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/storage/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/CMakeFiles" 0
+	cd /media/psf/Home/DB2023/rmdb/build && $(CMAKE_COMMAND) -E cmake_progress_start /media/psf/Home/DB2023/rmdb/build/CMakeFiles /media/psf/Home/DB2023/rmdb/build/src/storage//CMakeFiles/progress.marks
+	cd /media/psf/Home/DB2023/rmdb/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/storage/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/psf/Home/DB2023/rmdb/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/storage/clean
+	cd /media/psf/Home/DB2023/rmdb/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/storage/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/storage/preinstall
+	cd /media/psf/Home/DB2023/rmdb/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/storage/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/storage/preinstall
+	cd /media/psf/Home/DB2023/rmdb/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/storage/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /media/psf/Home/DB2023/rmdb/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/storage/CMakeFiles/storage.dir/rule:
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/storage/CMakeFiles/storage.dir/rule
+	cd /media/psf/Home/DB2023/rmdb/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/storage/CMakeFiles/storage.dir/rule
 .PHONY : src/storage/CMakeFiles/storage.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ storage: src/storage/CMakeFiles/storage.dir/rule
 
 # fast build rule for target.
 storage/fast:
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" && $(MAKE) $(MAKESILENT) -f src/storage/CMakeFiles/storage.dir/build.make src/storage/CMakeFiles/storage.dir/build
+	cd /media/psf/Home/DB2023/rmdb/build && $(MAKE) $(MAKESILENT) -f src/storage/CMakeFiles/storage.dir/build.make src/storage/CMakeFiles/storage.dir/build
 .PHONY : storage/fast
 
 __/replacer/lru_replacer.o: __/replacer/lru_replacer.cpp.o
@@ -190,7 +190,7 @@ __/replacer/lru_replacer.o: __/replacer/lru_replacer.cpp.o
 
 # target to build an object file
 __/replacer/lru_replacer.cpp.o:
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" && $(MAKE) $(MAKESILENT) -f src/storage/CMakeFiles/storage.dir/build.make src/storage/CMakeFiles/storage.dir/__/replacer/lru_replacer.cpp.o
+	cd /media/psf/Home/DB2023/rmdb/build && $(MAKE) $(MAKESILENT) -f src/storage/CMakeFiles/storage.dir/build.make src/storage/CMakeFiles/storage.dir/__/replacer/lru_replacer.cpp.o
 .PHONY : __/replacer/lru_replacer.cpp.o
 
 __/replacer/lru_replacer.i: __/replacer/lru_replacer.cpp.i
@@ -198,7 +198,7 @@ __/replacer/lru_replacer.i: __/replacer/lru_replacer.cpp.i
 
 # target to preprocess a source file
 __/replacer/lru_replacer.cpp.i:
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" && $(MAKE) $(MAKESILENT) -f src/storage/CMakeFiles/storage.dir/build.make src/storage/CMakeFiles/storage.dir/__/replacer/lru_replacer.cpp.i
+	cd /media/psf/Home/DB2023/rmdb/build && $(MAKE) $(MAKESILENT) -f src/storage/CMakeFiles/storage.dir/build.make src/storage/CMakeFiles/storage.dir/__/replacer/lru_replacer.cpp.i
 .PHONY : __/replacer/lru_replacer.cpp.i
 
 __/replacer/lru_replacer.s: __/replacer/lru_replacer.cpp.s
@@ -206,7 +206,7 @@ __/replacer/lru_replacer.s: __/replacer/lru_replacer.cpp.s
 
 # target to generate assembly for a file
 __/replacer/lru_replacer.cpp.s:
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" && $(MAKE) $(MAKESILENT) -f src/storage/CMakeFiles/storage.dir/build.make src/storage/CMakeFiles/storage.dir/__/replacer/lru_replacer.cpp.s
+	cd /media/psf/Home/DB2023/rmdb/build && $(MAKE) $(MAKESILENT) -f src/storage/CMakeFiles/storage.dir/build.make src/storage/CMakeFiles/storage.dir/__/replacer/lru_replacer.cpp.s
 .PHONY : __/replacer/lru_replacer.cpp.s
 
 buffer_pool_manager.o: buffer_pool_manager.cpp.o
@@ -214,7 +214,7 @@ buffer_pool_manager.o: buffer_pool_manager.cpp.o
 
 # target to build an object file
 buffer_pool_manager.cpp.o:
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" && $(MAKE) $(MAKESILENT) -f src/storage/CMakeFiles/storage.dir/build.make src/storage/CMakeFiles/storage.dir/buffer_pool_manager.cpp.o
+	cd /media/psf/Home/DB2023/rmdb/build && $(MAKE) $(MAKESILENT) -f src/storage/CMakeFiles/storage.dir/build.make src/storage/CMakeFiles/storage.dir/buffer_pool_manager.cpp.o
 .PHONY : buffer_pool_manager.cpp.o
 
 buffer_pool_manager.i: buffer_pool_manager.cpp.i
@@ -222,7 +222,7 @@ buffer_pool_manager.i: buffer_pool_manager.cpp.i
 
 # target to preprocess a source file
 buffer_pool_manager.cpp.i:
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" && $(MAKE) $(MAKESILENT) -f src/storage/CMakeFiles/storage.dir/build.make src/storage/CMakeFiles/storage.dir/buffer_pool_manager.cpp.i
+	cd /media/psf/Home/DB2023/rmdb/build && $(MAKE) $(MAKESILENT) -f src/storage/CMakeFiles/storage.dir/build.make src/storage/CMakeFiles/storage.dir/buffer_pool_manager.cpp.i
 .PHONY : buffer_pool_manager.cpp.i
 
 buffer_pool_manager.s: buffer_pool_manager.cpp.s
@@ -230,7 +230,7 @@ buffer_pool_manager.s: buffer_pool_manager.cpp.s
 
 # target to generate assembly for a file
 buffer_pool_manager.cpp.s:
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" && $(MAKE) $(MAKESILENT) -f src/storage/CMakeFiles/storage.dir/build.make src/storage/CMakeFiles/storage.dir/buffer_pool_manager.cpp.s
+	cd /media/psf/Home/DB2023/rmdb/build && $(MAKE) $(MAKESILENT) -f src/storage/CMakeFiles/storage.dir/build.make src/storage/CMakeFiles/storage.dir/buffer_pool_manager.cpp.s
 .PHONY : buffer_pool_manager.cpp.s
 
 disk_manager.o: disk_manager.cpp.o
@@ -238,7 +238,7 @@ disk_manager.o: disk_manager.cpp.o
 
 # target to build an object file
 disk_manager.cpp.o:
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" && $(MAKE) $(MAKESILENT) -f src/storage/CMakeFiles/storage.dir/build.make src/storage/CMakeFiles/storage.dir/disk_manager.cpp.o
+	cd /media/psf/Home/DB2023/rmdb/build && $(MAKE) $(MAKESILENT) -f src/storage/CMakeFiles/storage.dir/build.make src/storage/CMakeFiles/storage.dir/disk_manager.cpp.o
 .PHONY : disk_manager.cpp.o
 
 disk_manager.i: disk_manager.cpp.i
@@ -246,7 +246,7 @@ disk_manager.i: disk_manager.cpp.i
 
 # target to preprocess a source file
 disk_manager.cpp.i:
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" && $(MAKE) $(MAKESILENT) -f src/storage/CMakeFiles/storage.dir/build.make src/storage/CMakeFiles/storage.dir/disk_manager.cpp.i
+	cd /media/psf/Home/DB2023/rmdb/build && $(MAKE) $(MAKESILENT) -f src/storage/CMakeFiles/storage.dir/build.make src/storage/CMakeFiles/storage.dir/disk_manager.cpp.i
 .PHONY : disk_manager.cpp.i
 
 disk_manager.s: disk_manager.cpp.s
@@ -254,7 +254,7 @@ disk_manager.s: disk_manager.cpp.s
 
 # target to generate assembly for a file
 disk_manager.cpp.s:
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" && $(MAKE) $(MAKESILENT) -f src/storage/CMakeFiles/storage.dir/build.make src/storage/CMakeFiles/storage.dir/disk_manager.cpp.s
+	cd /media/psf/Home/DB2023/rmdb/build && $(MAKE) $(MAKESILENT) -f src/storage/CMakeFiles/storage.dir/build.make src/storage/CMakeFiles/storage.dir/disk_manager.cpp.s
 .PHONY : disk_manager.cpp.s
 
 # Help Target
@@ -291,6 +291,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /media/psf/Home/DB2023/rmdb/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

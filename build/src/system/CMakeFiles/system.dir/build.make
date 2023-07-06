@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb"
+CMAKE_SOURCE_DIR = /media/psf/Home/DB2023/rmdb
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build"
+CMAKE_BINARY_DIR = /media/psf/Home/DB2023/rmdb/build
 
 # Include any dependencies generated for this target.
 include src/system/CMakeFiles/system.dir/depend.make
@@ -72,16 +72,16 @@ include src/system/CMakeFiles/system.dir/flags.make
 src/system/CMakeFiles/system.dir/sm_manager.cpp.o: src/system/CMakeFiles/system.dir/flags.make
 src/system/CMakeFiles/system.dir/sm_manager.cpp.o: ../src/system/sm_manager.cpp
 src/system/CMakeFiles/system.dir/sm_manager.cpp.o: src/system/CMakeFiles/system.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/system/CMakeFiles/system.dir/sm_manager.cpp.o"
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/src/system" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/system/CMakeFiles/system.dir/sm_manager.cpp.o -MF CMakeFiles/system.dir/sm_manager.cpp.o.d -o CMakeFiles/system.dir/sm_manager.cpp.o -c "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/src/system/sm_manager.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/psf/Home/DB2023/rmdb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/system/CMakeFiles/system.dir/sm_manager.cpp.o"
+	cd /media/psf/Home/DB2023/rmdb/build/src/system && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/system/CMakeFiles/system.dir/sm_manager.cpp.o -MF CMakeFiles/system.dir/sm_manager.cpp.o.d -o CMakeFiles/system.dir/sm_manager.cpp.o -c /media/psf/Home/DB2023/rmdb/src/system/sm_manager.cpp
 
 src/system/CMakeFiles/system.dir/sm_manager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/system.dir/sm_manager.cpp.i"
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/src/system" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/src/system/sm_manager.cpp" > CMakeFiles/system.dir/sm_manager.cpp.i
+	cd /media/psf/Home/DB2023/rmdb/build/src/system && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/psf/Home/DB2023/rmdb/src/system/sm_manager.cpp > CMakeFiles/system.dir/sm_manager.cpp.i
 
 src/system/CMakeFiles/system.dir/sm_manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/system.dir/sm_manager.cpp.s"
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/src/system" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/src/system/sm_manager.cpp" -o CMakeFiles/system.dir/sm_manager.cpp.s
+	cd /media/psf/Home/DB2023/rmdb/build/src/system && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/psf/Home/DB2023/rmdb/src/system/sm_manager.cpp -o CMakeFiles/system.dir/sm_manager.cpp.s
 
 # Object files for target system
 system_OBJECTS = \
@@ -93,19 +93,19 @@ system_EXTERNAL_OBJECTS =
 lib/libsystem.a: src/system/CMakeFiles/system.dir/sm_manager.cpp.o
 lib/libsystem.a: src/system/CMakeFiles/system.dir/build.make
 lib/libsystem.a: src/system/CMakeFiles/system.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../lib/libsystem.a"
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/src/system" && $(CMAKE_COMMAND) -P CMakeFiles/system.dir/cmake_clean_target.cmake
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/src/system" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/system.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/psf/Home/DB2023/rmdb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../lib/libsystem.a"
+	cd /media/psf/Home/DB2023/rmdb/build/src/system && $(CMAKE_COMMAND) -P CMakeFiles/system.dir/cmake_clean_target.cmake
+	cd /media/psf/Home/DB2023/rmdb/build/src/system && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/system.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/system/CMakeFiles/system.dir/build: lib/libsystem.a
 .PHONY : src/system/CMakeFiles/system.dir/build
 
 src/system/CMakeFiles/system.dir/clean:
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/src/system" && $(CMAKE_COMMAND) -P CMakeFiles/system.dir/cmake_clean.cmake
+	cd /media/psf/Home/DB2023/rmdb/build/src/system && $(CMAKE_COMMAND) -P CMakeFiles/system.dir/cmake_clean.cmake
 .PHONY : src/system/CMakeFiles/system.dir/clean
 
 src/system/CMakeFiles/system.dir/depend:
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb" "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/src/system" "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/src/system" "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/src/system/CMakeFiles/system.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /media/psf/Home/DB2023/rmdb/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/psf/Home/DB2023/rmdb /media/psf/Home/DB2023/rmdb/src/system /media/psf/Home/DB2023/rmdb/build /media/psf/Home/DB2023/rmdb/build/src/system /media/psf/Home/DB2023/rmdb/build/src/system/CMakeFiles/system.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/system/CMakeFiles/system.dir/depend
 

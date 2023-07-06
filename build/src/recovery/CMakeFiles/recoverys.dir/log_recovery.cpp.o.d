@@ -1,7 +1,7 @@
 src/recovery/CMakeFiles/recoverys.dir/log_recovery.cpp.o: \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/recovery/log_recovery.cpp \
+ /media/psf/Home/DB2023/rmdb/src/recovery/log_recovery.cpp \
  /usr/include/stdc-predef.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/recovery/log_recovery.h \
+ /media/psf/Home/DB2023/rmdb/src/recovery/log_recovery.h \
  /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
@@ -55,7 +55,7 @@ src/recovery/CMakeFiles/recoverys.dir/log_recovery.cpp.o: \
  /usr/include/c++/11/bits/hashtable_policy.h \
  /usr/include/c++/11/bits/enable_special_members.h \
  /usr/include/c++/11/bits/unordered_map.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/recovery/log_manager.h \
+ /media/psf/Home/DB2023/rmdb/src/recovery/log_manager.h \
  /usr/include/c++/11/mutex /usr/include/c++/11/chrono \
  /usr/include/c++/11/ratio /usr/include/c++/11/cstdint \
  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
@@ -172,9 +172,9 @@ src/recovery/CMakeFiles/recoverys.dir/log_recovery.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/recovery/log_defs.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/defs.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/storage/disk_manager.h \
+ /media/psf/Home/DB2023/rmdb/src/recovery/log_defs.h \
+ /media/psf/Home/DB2023/rmdb/src/defs.h \
+ /media/psf/Home/DB2023/rmdb/src/storage/disk_manager.h \
  /usr/include/fcntl.h /usr/include/aarch64-linux-gnu/bits/fcntl.h \
  /usr/include/aarch64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/aarch64-linux-gnu/bits/types/struct_iovec.h \
@@ -205,34 +205,32 @@ src/recovery/CMakeFiles/recoverys.dir/log_recovery.cpp.o: \
  /usr/include/aarch64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/aarch64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/common/config.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/errors.h \
- /usr/include/c++/11/cstring /usr/include/string.h /usr/include/strings.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/record/rm_defs.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/storage/buffer_pool_manager.h \
+ /media/psf/Home/DB2023/rmdb/src/common/config.h \
+ /media/psf/Home/DB2023/rmdb/src/errors.h /usr/include/c++/11/cstring \
+ /usr/include/string.h /usr/include/strings.h \
+ /media/psf/Home/DB2023/rmdb/src/record/rm_defs.h \
+ /media/psf/Home/DB2023/rmdb/src/storage/buffer_pool_manager.h \
  /usr/include/c++/11/cassert /usr/include/assert.h \
  /usr/include/c++/11/list /usr/include/c++/11/bits/stl_list.h \
  /usr/include/c++/11/bits/allocated_ptr.h \
  /usr/include/c++/11/bits/list.tcc \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/storage/page.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/replacer/lru_replacer.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/replacer/replacer.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/system/sm_manager.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/index/ix.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/index/ix_scan.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/index/ix_defs.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/index/ix_index_handle.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/transaction/transaction.h \
+ /media/psf/Home/DB2023/rmdb/src/storage/page.h \
+ /media/psf/Home/DB2023/rmdb/src/replacer/lru_replacer.h \
+ /media/psf/Home/DB2023/rmdb/src/replacer/replacer.h \
+ /media/psf/Home/DB2023/rmdb/src/system/sm_manager.h \
+ /media/psf/Home/DB2023/rmdb/src/index/ix.h \
+ /media/psf/Home/DB2023/rmdb/src/index/ix_scan.h \
+ /media/psf/Home/DB2023/rmdb/src/index/ix_defs.h \
+ /media/psf/Home/DB2023/rmdb/src/index/ix_index_handle.h \
+ /media/psf/Home/DB2023/rmdb/src/transaction/transaction.h \
  /usr/include/c++/11/deque /usr/include/c++/11/bits/stl_deque.h \
  /usr/include/c++/11/bits/deque.tcc /usr/include/c++/11/thread \
  /usr/include/c++/11/bits/std_thread.h /usr/include/c++/11/bits/refwrap.h \
  /usr/include/c++/11/bits/unique_ptr.h \
  /usr/include/c++/11/bits/this_thread_sleep.h \
  /usr/include/c++/11/unordered_set \
- /usr/include/c++/11/bits/unordered_set.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/transaction/txn_defs.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/index/ix_manager.h \
- /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_tempbuf.h \
+ /usr/include/c++/11/bits/unordered_set.h /usr/include/c++/11/memory \
+ /usr/include/c++/11/bits/stl_tempbuf.h \
  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
  /usr/include/c++/11/bits/align.h /usr/include/c++/11/bit \
  /usr/include/c++/11/bits/shared_ptr.h \
@@ -242,17 +240,19 @@ src/recovery/CMakeFiles/recoverys.dir/log_recovery.cpp.o: \
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/system/sm_meta.h \
+ /media/psf/Home/DB2023/rmdb/src/transaction/txn_defs.h \
+ /media/psf/Home/DB2023/rmdb/src/index/ix_manager.h \
+ /media/psf/Home/DB2023/rmdb/src/system/sm_meta.h \
  /usr/include/c++/11/algorithm /usr/include/c++/11/bits/stl_algo.h \
  /usr/include/c++/11/bits/algorithmfwd.h \
  /usr/include/c++/11/bits/stl_heap.h \
  /usr/include/c++/11/bits/uniform_int_dist.h \
  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
  /usr/include/c++/11/functional /usr/include/c++/11/bits/std_function.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/system/sm_defs.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/record/rm_file_handle.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/record/bitmap.h \
+ /media/psf/Home/DB2023/rmdb/src/system/sm_defs.h \
+ /media/psf/Home/DB2023/rmdb/src/record/rm_file_handle.h \
+ /media/psf/Home/DB2023/rmdb/src/record/bitmap.h \
  /usr/include/c++/11/cinttypes /usr/include/inttypes.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/common/context.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/transaction/concurrency/lock_manager.h \
+ /media/psf/Home/DB2023/rmdb/src/common/context.h \
+ /media/psf/Home/DB2023/rmdb/src/transaction/concurrency/lock_manager.h \
  /usr/include/c++/11/condition_variable

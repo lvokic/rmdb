@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb"
+CMAKE_SOURCE_DIR = /media/psf/Home/DB2023/rmdb
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build"
+CMAKE_BINARY_DIR = /media/psf/Home/DB2023/rmdb/build
 
 # Include any dependencies generated for this target.
 include src/recovery/CMakeFiles/recoverys.dir/depend.make
@@ -72,30 +72,30 @@ include src/recovery/CMakeFiles/recoverys.dir/flags.make
 src/recovery/CMakeFiles/recoverys.dir/log_manager.cpp.o: src/recovery/CMakeFiles/recoverys.dir/flags.make
 src/recovery/CMakeFiles/recoverys.dir/log_manager.cpp.o: ../src/recovery/log_manager.cpp
 src/recovery/CMakeFiles/recoverys.dir/log_manager.cpp.o: src/recovery/CMakeFiles/recoverys.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/recovery/CMakeFiles/recoverys.dir/log_manager.cpp.o"
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/src/recovery" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/recovery/CMakeFiles/recoverys.dir/log_manager.cpp.o -MF CMakeFiles/recoverys.dir/log_manager.cpp.o.d -o CMakeFiles/recoverys.dir/log_manager.cpp.o -c "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/src/recovery/log_manager.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/psf/Home/DB2023/rmdb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/recovery/CMakeFiles/recoverys.dir/log_manager.cpp.o"
+	cd /media/psf/Home/DB2023/rmdb/build/src/recovery && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/recovery/CMakeFiles/recoverys.dir/log_manager.cpp.o -MF CMakeFiles/recoverys.dir/log_manager.cpp.o.d -o CMakeFiles/recoverys.dir/log_manager.cpp.o -c /media/psf/Home/DB2023/rmdb/src/recovery/log_manager.cpp
 
 src/recovery/CMakeFiles/recoverys.dir/log_manager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/recoverys.dir/log_manager.cpp.i"
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/src/recovery" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/src/recovery/log_manager.cpp" > CMakeFiles/recoverys.dir/log_manager.cpp.i
+	cd /media/psf/Home/DB2023/rmdb/build/src/recovery && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/psf/Home/DB2023/rmdb/src/recovery/log_manager.cpp > CMakeFiles/recoverys.dir/log_manager.cpp.i
 
 src/recovery/CMakeFiles/recoverys.dir/log_manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/recoverys.dir/log_manager.cpp.s"
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/src/recovery" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/src/recovery/log_manager.cpp" -o CMakeFiles/recoverys.dir/log_manager.cpp.s
+	cd /media/psf/Home/DB2023/rmdb/build/src/recovery && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/psf/Home/DB2023/rmdb/src/recovery/log_manager.cpp -o CMakeFiles/recoverys.dir/log_manager.cpp.s
 
 src/recovery/CMakeFiles/recoverys.dir/log_recovery.cpp.o: src/recovery/CMakeFiles/recoverys.dir/flags.make
 src/recovery/CMakeFiles/recoverys.dir/log_recovery.cpp.o: ../src/recovery/log_recovery.cpp
 src/recovery/CMakeFiles/recoverys.dir/log_recovery.cpp.o: src/recovery/CMakeFiles/recoverys.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/recovery/CMakeFiles/recoverys.dir/log_recovery.cpp.o"
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/src/recovery" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/recovery/CMakeFiles/recoverys.dir/log_recovery.cpp.o -MF CMakeFiles/recoverys.dir/log_recovery.cpp.o.d -o CMakeFiles/recoverys.dir/log_recovery.cpp.o -c "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/src/recovery/log_recovery.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/psf/Home/DB2023/rmdb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/recovery/CMakeFiles/recoverys.dir/log_recovery.cpp.o"
+	cd /media/psf/Home/DB2023/rmdb/build/src/recovery && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/recovery/CMakeFiles/recoverys.dir/log_recovery.cpp.o -MF CMakeFiles/recoverys.dir/log_recovery.cpp.o.d -o CMakeFiles/recoverys.dir/log_recovery.cpp.o -c /media/psf/Home/DB2023/rmdb/src/recovery/log_recovery.cpp
 
 src/recovery/CMakeFiles/recoverys.dir/log_recovery.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/recoverys.dir/log_recovery.cpp.i"
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/src/recovery" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/src/recovery/log_recovery.cpp" > CMakeFiles/recoverys.dir/log_recovery.cpp.i
+	cd /media/psf/Home/DB2023/rmdb/build/src/recovery && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/psf/Home/DB2023/rmdb/src/recovery/log_recovery.cpp > CMakeFiles/recoverys.dir/log_recovery.cpp.i
 
 src/recovery/CMakeFiles/recoverys.dir/log_recovery.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/recoverys.dir/log_recovery.cpp.s"
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/src/recovery" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/src/recovery/log_recovery.cpp" -o CMakeFiles/recoverys.dir/log_recovery.cpp.s
+	cd /media/psf/Home/DB2023/rmdb/build/src/recovery && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/psf/Home/DB2023/rmdb/src/recovery/log_recovery.cpp -o CMakeFiles/recoverys.dir/log_recovery.cpp.s
 
 # Object files for target recoverys
 recoverys_OBJECTS = \
@@ -109,18 +109,18 @@ lib/librecoverys.so: src/recovery/CMakeFiles/recoverys.dir/log_manager.cpp.o
 lib/librecoverys.so: src/recovery/CMakeFiles/recoverys.dir/log_recovery.cpp.o
 lib/librecoverys.so: src/recovery/CMakeFiles/recoverys.dir/build.make
 lib/librecoverys.so: src/recovery/CMakeFiles/recoverys.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library ../../lib/librecoverys.so"
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/src/recovery" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/recoverys.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/psf/Home/DB2023/rmdb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library ../../lib/librecoverys.so"
+	cd /media/psf/Home/DB2023/rmdb/build/src/recovery && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/recoverys.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/recovery/CMakeFiles/recoverys.dir/build: lib/librecoverys.so
 .PHONY : src/recovery/CMakeFiles/recoverys.dir/build
 
 src/recovery/CMakeFiles/recoverys.dir/clean:
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/src/recovery" && $(CMAKE_COMMAND) -P CMakeFiles/recoverys.dir/cmake_clean.cmake
+	cd /media/psf/Home/DB2023/rmdb/build/src/recovery && $(CMAKE_COMMAND) -P CMakeFiles/recoverys.dir/cmake_clean.cmake
 .PHONY : src/recovery/CMakeFiles/recoverys.dir/clean
 
 src/recovery/CMakeFiles/recoverys.dir/depend:
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb" "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/src/recovery" "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/src/recovery" "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/src/recovery/CMakeFiles/recoverys.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /media/psf/Home/DB2023/rmdb/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/psf/Home/DB2023/rmdb /media/psf/Home/DB2023/rmdb/src/recovery /media/psf/Home/DB2023/rmdb/build /media/psf/Home/DB2023/rmdb/build/src/recovery /media/psf/Home/DB2023/rmdb/build/src/recovery/CMakeFiles/recoverys.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/recovery/CMakeFiles/recoverys.dir/depend
 

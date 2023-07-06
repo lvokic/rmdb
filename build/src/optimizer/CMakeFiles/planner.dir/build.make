@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb"
+CMAKE_SOURCE_DIR = /media/psf/Home/DB2023/rmdb
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build"
+CMAKE_BINARY_DIR = /media/psf/Home/DB2023/rmdb/build
 
 # Include any dependencies generated for this target.
 include src/optimizer/CMakeFiles/planner.dir/depend.make
@@ -72,16 +72,16 @@ include src/optimizer/CMakeFiles/planner.dir/flags.make
 src/optimizer/CMakeFiles/planner.dir/planner.cpp.o: src/optimizer/CMakeFiles/planner.dir/flags.make
 src/optimizer/CMakeFiles/planner.dir/planner.cpp.o: ../src/optimizer/planner.cpp
 src/optimizer/CMakeFiles/planner.dir/planner.cpp.o: src/optimizer/CMakeFiles/planner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/optimizer/CMakeFiles/planner.dir/planner.cpp.o"
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/src/optimizer" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/optimizer/CMakeFiles/planner.dir/planner.cpp.o -MF CMakeFiles/planner.dir/planner.cpp.o.d -o CMakeFiles/planner.dir/planner.cpp.o -c "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/src/optimizer/planner.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/psf/Home/DB2023/rmdb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/optimizer/CMakeFiles/planner.dir/planner.cpp.o"
+	cd /media/psf/Home/DB2023/rmdb/build/src/optimizer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/optimizer/CMakeFiles/planner.dir/planner.cpp.o -MF CMakeFiles/planner.dir/planner.cpp.o.d -o CMakeFiles/planner.dir/planner.cpp.o -c /media/psf/Home/DB2023/rmdb/src/optimizer/planner.cpp
 
 src/optimizer/CMakeFiles/planner.dir/planner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/planner.dir/planner.cpp.i"
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/src/optimizer" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/src/optimizer/planner.cpp" > CMakeFiles/planner.dir/planner.cpp.i
+	cd /media/psf/Home/DB2023/rmdb/build/src/optimizer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/psf/Home/DB2023/rmdb/src/optimizer/planner.cpp > CMakeFiles/planner.dir/planner.cpp.i
 
 src/optimizer/CMakeFiles/planner.dir/planner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/planner.dir/planner.cpp.s"
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/src/optimizer" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/src/optimizer/planner.cpp" -o CMakeFiles/planner.dir/planner.cpp.s
+	cd /media/psf/Home/DB2023/rmdb/build/src/optimizer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/psf/Home/DB2023/rmdb/src/optimizer/planner.cpp -o CMakeFiles/planner.dir/planner.cpp.s
 
 # Object files for target planner
 planner_OBJECTS = \
@@ -93,19 +93,19 @@ planner_EXTERNAL_OBJECTS =
 lib/libplanner.a: src/optimizer/CMakeFiles/planner.dir/planner.cpp.o
 lib/libplanner.a: src/optimizer/CMakeFiles/planner.dir/build.make
 lib/libplanner.a: src/optimizer/CMakeFiles/planner.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../lib/libplanner.a"
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/src/optimizer" && $(CMAKE_COMMAND) -P CMakeFiles/planner.dir/cmake_clean_target.cmake
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/src/optimizer" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/planner.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/psf/Home/DB2023/rmdb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../lib/libplanner.a"
+	cd /media/psf/Home/DB2023/rmdb/build/src/optimizer && $(CMAKE_COMMAND) -P CMakeFiles/planner.dir/cmake_clean_target.cmake
+	cd /media/psf/Home/DB2023/rmdb/build/src/optimizer && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/planner.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/optimizer/CMakeFiles/planner.dir/build: lib/libplanner.a
 .PHONY : src/optimizer/CMakeFiles/planner.dir/build
 
 src/optimizer/CMakeFiles/planner.dir/clean:
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/src/optimizer" && $(CMAKE_COMMAND) -P CMakeFiles/planner.dir/cmake_clean.cmake
+	cd /media/psf/Home/DB2023/rmdb/build/src/optimizer && $(CMAKE_COMMAND) -P CMakeFiles/planner.dir/cmake_clean.cmake
 .PHONY : src/optimizer/CMakeFiles/planner.dir/clean
 
 src/optimizer/CMakeFiles/planner.dir/depend:
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb" "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/src/optimizer" "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/src/optimizer" "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/src/optimizer/CMakeFiles/planner.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /media/psf/Home/DB2023/rmdb/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/psf/Home/DB2023/rmdb /media/psf/Home/DB2023/rmdb/src/optimizer /media/psf/Home/DB2023/rmdb/build /media/psf/Home/DB2023/rmdb/build/src/optimizer /media/psf/Home/DB2023/rmdb/build/src/optimizer/CMakeFiles/planner.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/optimizer/CMakeFiles/planner.dir/depend
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/src/execution
+# Install script for directory: /media/psf/Home/DB2023/rmdb/src/execution
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

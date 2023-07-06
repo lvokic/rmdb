@@ -1,7 +1,7 @@
 src/storage/CMakeFiles/storage.dir/buffer_pool_manager.cpp.o: \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/storage/buffer_pool_manager.cpp \
+ /media/psf/Home/DB2023/rmdb/src/storage/buffer_pool_manager.cpp \
  /usr/include/stdc-predef.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/storage/buffer_pool_manager.h \
+ /media/psf/Home/DB2023/rmdb/src/storage/buffer_pool_manager.h \
  /usr/include/fcntl.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
@@ -80,7 +80,7 @@ src/storage/CMakeFiles/storage.dir/buffer_pool_manager.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/storage/disk_manager.h \
+ /media/psf/Home/DB2023/rmdb/src/storage/disk_manager.h \
  /usr/include/aarch64-linux-gnu/sys/stat.h \
  /usr/include/aarch64-linux-gnu/bits/statx.h /usr/include/linux/stat.h \
  /usr/include/linux/types.h /usr/include/aarch64-linux-gnu/asm/types.h \
@@ -197,14 +197,14 @@ src/storage/CMakeFiles/storage.dir/buffer_pool_manager.cpp.o: \
  /usr/include/aarch64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/aarch64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc /usr/include/c++/11/iostream \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/common/config.h \
+ /media/psf/Home/DB2023/rmdb/src/common/config.h \
  /usr/include/c++/11/chrono /usr/include/c++/11/ratio \
  /usr/include/c++/11/limits /usr/include/c++/11/ctime \
  /usr/include/c++/11/bits/parse_numbers.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/errors.h \
- /usr/include/c++/11/cstring /usr/include/string.h /usr/include/strings.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/storage/page.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/replacer/lru_replacer.h \
+ /media/psf/Home/DB2023/rmdb/src/errors.h /usr/include/c++/11/cstring \
+ /usr/include/string.h /usr/include/strings.h \
+ /media/psf/Home/DB2023/rmdb/src/storage/page.h \
+ /media/psf/Home/DB2023/rmdb/src/replacer/lru_replacer.h \
  /usr/include/c++/11/mutex /usr/include/c++/11/bits/std_mutex.h \
  /usr/include/c++/11/bits/unique_lock.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/replacer/replacer.h
+ /media/psf/Home/DB2023/rmdb/src/replacer/replacer.h

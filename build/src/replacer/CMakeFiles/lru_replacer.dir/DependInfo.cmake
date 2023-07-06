@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/src/replacer/lru_replacer.cpp" "src/replacer/CMakeFiles/lru_replacer.dir/lru_replacer.cpp.o" "gcc" "src/replacer/CMakeFiles/lru_replacer.dir/lru_replacer.cpp.o.d"
+  "/media/psf/Home/DB2023/rmdb/src/replacer/lru_replacer.cpp" "src/replacer/CMakeFiles/lru_replacer.dir/lru_replacer.cpp.o" "gcc" "src/replacer/CMakeFiles/lru_replacer.dir/lru_replacer.cpp.o.d"
   )
 
 # Targets to which this target links.

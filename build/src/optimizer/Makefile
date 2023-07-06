@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb"
+CMAKE_SOURCE_DIR = /media/psf/Home/DB2023/rmdb
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build"
+CMAKE_BINARY_DIR = /media/psf/Home/DB2023/rmdb/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/CMakeFiles" "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/src/optimizer//CMakeFiles/progress.marks"
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/optimizer/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/CMakeFiles" 0
+	cd /media/psf/Home/DB2023/rmdb/build && $(CMAKE_COMMAND) -E cmake_progress_start /media/psf/Home/DB2023/rmdb/build/CMakeFiles /media/psf/Home/DB2023/rmdb/build/src/optimizer//CMakeFiles/progress.marks
+	cd /media/psf/Home/DB2023/rmdb/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/optimizer/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/psf/Home/DB2023/rmdb/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/optimizer/clean
+	cd /media/psf/Home/DB2023/rmdb/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/optimizer/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/optimizer/preinstall
+	cd /media/psf/Home/DB2023/rmdb/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/optimizer/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/optimizer/preinstall
+	cd /media/psf/Home/DB2023/rmdb/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/optimizer/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /media/psf/Home/DB2023/rmdb/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/optimizer/CMakeFiles/planner.dir/rule:
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/optimizer/CMakeFiles/planner.dir/rule
+	cd /media/psf/Home/DB2023/rmdb/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/optimizer/CMakeFiles/planner.dir/rule
 .PHONY : src/optimizer/CMakeFiles/planner.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ planner: src/optimizer/CMakeFiles/planner.dir/rule
 
 # fast build rule for target.
 planner/fast:
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" && $(MAKE) $(MAKESILENT) -f src/optimizer/CMakeFiles/planner.dir/build.make src/optimizer/CMakeFiles/planner.dir/build
+	cd /media/psf/Home/DB2023/rmdb/build && $(MAKE) $(MAKESILENT) -f src/optimizer/CMakeFiles/planner.dir/build.make src/optimizer/CMakeFiles/planner.dir/build
 .PHONY : planner/fast
 
 planner.o: planner.cpp.o
@@ -190,7 +190,7 @@ planner.o: planner.cpp.o
 
 # target to build an object file
 planner.cpp.o:
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" && $(MAKE) $(MAKESILENT) -f src/optimizer/CMakeFiles/planner.dir/build.make src/optimizer/CMakeFiles/planner.dir/planner.cpp.o
+	cd /media/psf/Home/DB2023/rmdb/build && $(MAKE) $(MAKESILENT) -f src/optimizer/CMakeFiles/planner.dir/build.make src/optimizer/CMakeFiles/planner.dir/planner.cpp.o
 .PHONY : planner.cpp.o
 
 planner.i: planner.cpp.i
@@ -198,7 +198,7 @@ planner.i: planner.cpp.i
 
 # target to preprocess a source file
 planner.cpp.i:
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" && $(MAKE) $(MAKESILENT) -f src/optimizer/CMakeFiles/planner.dir/build.make src/optimizer/CMakeFiles/planner.dir/planner.cpp.i
+	cd /media/psf/Home/DB2023/rmdb/build && $(MAKE) $(MAKESILENT) -f src/optimizer/CMakeFiles/planner.dir/build.make src/optimizer/CMakeFiles/planner.dir/planner.cpp.i
 .PHONY : planner.cpp.i
 
 planner.s: planner.cpp.s
@@ -206,7 +206,7 @@ planner.s: planner.cpp.s
 
 # target to generate assembly for a file
 planner.cpp.s:
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" && $(MAKE) $(MAKESILENT) -f src/optimizer/CMakeFiles/planner.dir/build.make src/optimizer/CMakeFiles/planner.dir/planner.cpp.s
+	cd /media/psf/Home/DB2023/rmdb/build && $(MAKE) $(MAKESILENT) -f src/optimizer/CMakeFiles/planner.dir/build.make src/optimizer/CMakeFiles/planner.dir/planner.cpp.s
 .PHONY : planner.cpp.s
 
 # Help Target
@@ -237,6 +237,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /media/psf/Home/DB2023/rmdb/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

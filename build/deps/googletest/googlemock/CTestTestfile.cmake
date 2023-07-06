@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/deps/googletest/googlemock
-# Build directory: /home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/deps/googletest/googlemock
+# Source directory: /media/psf/Home/DB2023/rmdb/deps/googletest/googlemock
+# Build directory: /media/psf/Home/DB2023/rmdb/build/deps/googletest/googlemock
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

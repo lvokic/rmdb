@@ -1,4 +1,4 @@
-# Install script for directory: /home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/deps
+# Install script for directory: /media/psf/Home/DB2023/rmdb/deps
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,6 +44,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/deps/googletest/cmake_install.cmake")
+  include("/media/psf/Home/DB2023/rmdb/build/deps/googletest/cmake_install.cmake")
 endif()
 

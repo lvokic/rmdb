@@ -1,5 +1,5 @@
 src/recovery/CMakeFiles/recoverys.dir/log_manager.cpp.o: \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/recovery/log_manager.cpp \
+ /media/psf/Home/DB2023/rmdb/src/recovery/log_manager.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/cstring \
  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h \
@@ -17,7 +17,7 @@ src/recovery/CMakeFiles/recoverys.dir/log_manager.cpp.o: \
  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/recovery/log_manager.h \
+ /media/psf/Home/DB2023/rmdb/src/recovery/log_manager.h \
  /usr/include/c++/11/mutex /usr/include/c++/11/tuple \
  /usr/include/c++/11/utility /usr/include/c++/11/bits/stl_relops.h \
  /usr/include/c++/11/bits/stl_pair.h /usr/include/c++/11/bits/move.h \
@@ -161,15 +161,15 @@ src/recovery/CMakeFiles/recoverys.dir/log_manager.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/recovery/log_defs.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/defs.h \
- /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
+ /media/psf/Home/DB2023/rmdb/src/recovery/log_defs.h \
+ /media/psf/Home/DB2023/rmdb/src/defs.h /usr/include/c++/11/map \
+ /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/ext/aligned_buffer.h \
  /usr/include/c++/11/bits/node_handle.h \
  /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/stl_multimap.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/storage/disk_manager.h \
+ /media/psf/Home/DB2023/rmdb/src/storage/disk_manager.h \
  /usr/include/fcntl.h /usr/include/aarch64-linux-gnu/bits/fcntl.h \
  /usr/include/aarch64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/aarch64-linux-gnu/bits/types/struct_iovec.h \
@@ -204,14 +204,14 @@ src/recovery/CMakeFiles/recoverys.dir/log_manager.cpp.o: \
  /usr/include/c++/11/bits/hashtable_policy.h \
  /usr/include/c++/11/bits/enable_special_members.h \
  /usr/include/c++/11/bits/unordered_map.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/common/config.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/errors.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/record/rm_defs.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/storage/buffer_pool_manager.h \
+ /media/psf/Home/DB2023/rmdb/src/common/config.h \
+ /media/psf/Home/DB2023/rmdb/src/errors.h \
+ /media/psf/Home/DB2023/rmdb/src/record/rm_defs.h \
+ /media/psf/Home/DB2023/rmdb/src/storage/buffer_pool_manager.h \
  /usr/include/c++/11/cassert /usr/include/assert.h \
  /usr/include/c++/11/list /usr/include/c++/11/bits/stl_list.h \
  /usr/include/c++/11/bits/allocated_ptr.h \
  /usr/include/c++/11/bits/list.tcc \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/storage/page.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/replacer/lru_replacer.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/replacer/replacer.h
+ /media/psf/Home/DB2023/rmdb/src/storage/page.h \
+ /media/psf/Home/DB2023/rmdb/src/replacer/lru_replacer.h \
+ /media/psf/Home/DB2023/rmdb/src/replacer/replacer.h

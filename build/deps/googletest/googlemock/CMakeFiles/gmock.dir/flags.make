@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/deps/googletest/googlemock/include" -I"/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/deps/googletest/googlemock" -isystem "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/deps/googletest/googletest/include" -isystem "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/deps/googletest/googletest"
+CXX_INCLUDES = -I/media/psf/Home/DB2023/rmdb/deps/googletest/googlemock/include -I/media/psf/Home/DB2023/rmdb/deps/googletest/googlemock -isystem /media/psf/Home/DB2023/rmdb/deps/googletest/googletest/include -isystem /media/psf/Home/DB2023/rmdb/deps/googletest/googletest
 
 CXX_FLAGS = -Wall -O0 -g -ggdb3 -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
 

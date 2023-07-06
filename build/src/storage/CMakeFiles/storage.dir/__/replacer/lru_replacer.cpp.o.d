@@ -1,7 +1,7 @@
 src/storage/CMakeFiles/storage.dir/__/replacer/lru_replacer.cpp.o: \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/replacer/lru_replacer.cpp \
+ /media/psf/Home/DB2023/rmdb/src/replacer/lru_replacer.cpp \
  /usr/include/stdc-predef.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/replacer/lru_replacer.h \
+ /media/psf/Home/DB2023/rmdb/src/replacer/lru_replacer.h \
  /usr/include/c++/11/list /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h \
@@ -150,10 +150,10 @@ src/storage/CMakeFiles/storage.dir/__/replacer/lru_replacer.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/common/config.h \
+ /media/psf/Home/DB2023/rmdb/src/common/config.h \
  /usr/include/c++/11/atomic /usr/include/c++/11/bits/atomic_base.h \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/DB2023/db2023-gu/rmdb/src/replacer/replacer.h \
+ /media/psf/Home/DB2023/rmdb/src/replacer/replacer.h \
  /usr/include/c++/11/unordered_map /usr/include/c++/11/bits/hashtable.h \
  /usr/include/c++/11/bits/hashtable_policy.h \
  /usr/include/c++/11/bits/enable_special_members.h \

@@ -1,4 +1,4 @@
-# Install script for directory: /home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/src
+# Install script for directory: /media/psf/Home/DB2023/rmdb/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,66 +44,66 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/src/analyze/cmake_install.cmake")
+  include("/media/psf/Home/DB2023/rmdb/build/src/analyze/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/src/record/cmake_install.cmake")
+  include("/media/psf/Home/DB2023/rmdb/build/src/record/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/src/index/cmake_install.cmake")
+  include("/media/psf/Home/DB2023/rmdb/build/src/index/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/src/system/cmake_install.cmake")
+  include("/media/psf/Home/DB2023/rmdb/build/src/system/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/src/execution/cmake_install.cmake")
+  include("/media/psf/Home/DB2023/rmdb/build/src/execution/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/src/parser/cmake_install.cmake")
+  include("/media/psf/Home/DB2023/rmdb/build/src/parser/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/src/optimizer/cmake_install.cmake")
+  include("/media/psf/Home/DB2023/rmdb/build/src/optimizer/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/src/storage/cmake_install.cmake")
+  include("/media/psf/Home/DB2023/rmdb/build/src/storage/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/src/common/cmake_install.cmake")
+  include("/media/psf/Home/DB2023/rmdb/build/src/common/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/src/replacer/cmake_install.cmake")
+  include("/media/psf/Home/DB2023/rmdb/build/src/replacer/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/src/transaction/cmake_install.cmake")
+  include("/media/psf/Home/DB2023/rmdb/build/src/transaction/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/src/recovery/cmake_install.cmake")
+  include("/media/psf/Home/DB2023/rmdb/build/src/recovery/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/src/test/cmake_install.cmake")
+  include("/media/psf/Home/DB2023/rmdb/build/src/test/cmake_install.cmake")
 endif()
 

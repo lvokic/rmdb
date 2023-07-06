@@ -58,14 +58,13 @@ void LRUReplacer::unpin(frame_id_t frame_id) {
     // Todo:
     //  支持并发锁
     //  选择一个frame取消固定
-    latch_.lock();
+    std::scoped_lock lock{latch_};
     if(LRUhash_.find(frame_id) == LRUhash_.end())
     {
         LRUlist_.push_front(frame_id);
         std::list<frame_id_t>::iterator iter = LRUlist_.begin();
         LRUhash_.insert(std::make_pair(frame_id, iter));
     }
-    latch_.unlock();
 }
 
 /**

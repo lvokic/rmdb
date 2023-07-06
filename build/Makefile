@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb"
+CMAKE_SOURCE_DIR = /media/psf/Home/DB2023/rmdb
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build"
+CMAKE_BINARY_DIR = /media/psf/Home/DB2023/rmdb/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/CMakeFiles" "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/psf/Home/DB2023/rmdb/build/CMakeFiles /media/psf/Home/DB2023/rmdb/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/psf/Home/DB2023/rmdb/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -170,6 +170,19 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named rmdb
+
+# Build rule for target.
+rmdb: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rmdb
+.PHONY : rmdb
+
+# fast build rule for target.
+rmdb/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/rmdb.dir/build.make src/CMakeFiles/rmdb.dir/build
+.PHONY : rmdb/fast
 
 #=============================================================================
 # Target rules for targets named unit_test
@@ -445,6 +458,7 @@ help:
 	@echo "... records"
 	@echo "... recovery"
 	@echo "... recoverys"
+	@echo "... rmdb"
 	@echo "... storage"
 	@echo "... system"
 	@echo "... test_parser"

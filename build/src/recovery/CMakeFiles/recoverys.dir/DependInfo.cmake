@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/src/recovery/log_manager.cpp" "src/recovery/CMakeFiles/recoverys.dir/log_manager.cpp.o" "gcc" "src/recovery/CMakeFiles/recoverys.dir/log_manager.cpp.o.d"
-  "/home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/src/recovery/log_recovery.cpp" "src/recovery/CMakeFiles/recoverys.dir/log_recovery.cpp.o" "gcc" "src/recovery/CMakeFiles/recoverys.dir/log_recovery.cpp.o.d"
+  "/media/psf/Home/DB2023/rmdb/src/recovery/log_manager.cpp" "src/recovery/CMakeFiles/recoverys.dir/log_manager.cpp.o" "gcc" "src/recovery/CMakeFiles/recoverys.dir/log_manager.cpp.o.d"
+  "/media/psf/Home/DB2023/rmdb/src/recovery/log_recovery.cpp" "src/recovery/CMakeFiles/recoverys.dir/log_recovery.cpp.o" "gcc" "src/recovery/CMakeFiles/recoverys.dir/log_recovery.cpp.o.d"
   )
 
 # Targets to which this target links.

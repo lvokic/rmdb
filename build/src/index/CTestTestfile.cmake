@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/src/index
-# Build directory: /home/parallels/Desktop/Parallels Shared Folders/Home/DB2023/db2023-gu/rmdb/build/src/index
+# Source directory: /media/psf/Home/DB2023/rmdb/src/index
+# Build directory: /media/psf/Home/DB2023/rmdb/build/src/index
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
