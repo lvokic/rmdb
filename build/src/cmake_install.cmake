@@ -1,4 +1,4 @@
-# Install script for directory: /media/psf/Home/DB2023/rmdb/src
+# Install script for directory: /Users/qinjianwu/DB2023/rmdb/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -27,11 +27,6 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
-# Install shared libraries without execute permission?
-if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
-  set(CMAKE_INSTALL_SO_NO_EXE "1")
-endif()
-
 # Is this installation the result of a crosscompile?
 if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
@@ -39,71 +34,71 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+  set(CMAKE_OBJDUMP "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/media/psf/Home/DB2023/rmdb/build/src/analyze/cmake_install.cmake")
+  include("/Users/qinjianwu/DB2023/rmdb/build/src/analyze/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/media/psf/Home/DB2023/rmdb/build/src/record/cmake_install.cmake")
+  include("/Users/qinjianwu/DB2023/rmdb/build/src/record/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/media/psf/Home/DB2023/rmdb/build/src/index/cmake_install.cmake")
+  include("/Users/qinjianwu/DB2023/rmdb/build/src/index/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/media/psf/Home/DB2023/rmdb/build/src/system/cmake_install.cmake")
+  include("/Users/qinjianwu/DB2023/rmdb/build/src/system/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/media/psf/Home/DB2023/rmdb/build/src/execution/cmake_install.cmake")
+  include("/Users/qinjianwu/DB2023/rmdb/build/src/execution/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/media/psf/Home/DB2023/rmdb/build/src/parser/cmake_install.cmake")
+  include("/Users/qinjianwu/DB2023/rmdb/build/src/parser/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/media/psf/Home/DB2023/rmdb/build/src/optimizer/cmake_install.cmake")
+  include("/Users/qinjianwu/DB2023/rmdb/build/src/optimizer/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/media/psf/Home/DB2023/rmdb/build/src/storage/cmake_install.cmake")
+  include("/Users/qinjianwu/DB2023/rmdb/build/src/storage/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/media/psf/Home/DB2023/rmdb/build/src/common/cmake_install.cmake")
+  include("/Users/qinjianwu/DB2023/rmdb/build/src/common/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/media/psf/Home/DB2023/rmdb/build/src/replacer/cmake_install.cmake")
+  include("/Users/qinjianwu/DB2023/rmdb/build/src/replacer/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/media/psf/Home/DB2023/rmdb/build/src/transaction/cmake_install.cmake")
+  include("/Users/qinjianwu/DB2023/rmdb/build/src/transaction/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/media/psf/Home/DB2023/rmdb/build/src/recovery/cmake_install.cmake")
+  include("/Users/qinjianwu/DB2023/rmdb/build/src/recovery/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/media/psf/Home/DB2023/rmdb/build/src/test/cmake_install.cmake")
+  include("/Users/qinjianwu/DB2023/rmdb/build/src/test/cmake_install.cmake")
 endif()
 

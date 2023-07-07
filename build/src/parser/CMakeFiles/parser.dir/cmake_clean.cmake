@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
-  "../../../src/parser/lex.yy.cpp"
-  "../../../src/parser/yacc.tab.cpp"
-  "../../../src/parser/yacc.tab.h"
   "../../lib/libparser.a"
   "../../lib/libparser.pdb"
+  "/Users/qinjianwu/DB2023/rmdb/src/parser/lex.yy.cpp"
+  "/Users/qinjianwu/DB2023/rmdb/src/parser/yacc.tab.cpp"
+  "/Users/qinjianwu/DB2023/rmdb/src/parser/yacc.tab.h"
   "CMakeFiles/parser.dir/ast.cpp.o"
   "CMakeFiles/parser.dir/ast.cpp.o.d"
   "CMakeFiles/parser.dir/lex.yy.cpp.o"

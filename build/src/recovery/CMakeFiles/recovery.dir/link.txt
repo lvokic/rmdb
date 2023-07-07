@@ -1,2 +1,2 @@
-/usr/bin/ar qc ../../lib/librecovery.a CMakeFiles/recovery.dir/log_manager.cpp.o CMakeFiles/recovery.dir/log_recovery.cpp.o
-/usr/bin/ranlib ../../lib/librecovery.a
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc ../../lib/librecovery.a CMakeFiles/recovery.dir/log_manager.cpp.o CMakeFiles/recovery.dir/log_recovery.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib ../../lib/librecovery.a

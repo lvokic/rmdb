@@ -114,7 +114,7 @@ void DiskManager::create_file(const std::string &path) {
     // 调用open()函数，使用O_CREAT模式
     if(is_file(path))
         throw FileExistsError(path);
-    int fd = open(path.c_str(), O_WRONLY | O_CREAT | O_EXCL);
+    int fd = open(path.c_str(), O_CREAT);
     if(fd == -1){
         throw UnixError();
     }

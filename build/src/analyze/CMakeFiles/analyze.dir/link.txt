@@ -1,2 +1,2 @@
-/usr/bin/ar qc ../../lib/libanalyze.a CMakeFiles/analyze.dir/analyze.cpp.o
-/usr/bin/ranlib ../../lib/libanalyze.a
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc ../../lib/libanalyze.a CMakeFiles/analyze.dir/analyze.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib ../../lib/libanalyze.a

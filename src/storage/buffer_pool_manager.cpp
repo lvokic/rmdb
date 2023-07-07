@@ -31,7 +31,6 @@ bool BufferPoolManager::find_victim_page(frame_id_t *frame_id)
     { // 没有空闲帧可以替换
         return replacer_->victim(frame_id);
     }
-    return false;
 }
 
 /**
@@ -87,7 +86,7 @@ Page *BufferPoolManager::fetch_page(PageId page_id)
         Page *dest_page = &pages_[frame_id];
         if (dest_page->is_dirty())
         {
-            update_page(dest_page, dest_page->get_page_id(), frame_id);
+            update_page(dest_page, page_id, frame_id);
         }
         disk_manager_->read_page(page_id.fd, page_id.page_no, dest_page->get_data(), PAGE_SIZE);
         replacer_->pin(frame_id);
@@ -127,7 +126,7 @@ bool BufferPoolManager::unpin_page(PageId page_id, bool is_dirty)
     if (iter == page_table_.end())
         return false;
     frame_id_t frame_id = iter->second;
-    if (pages_[frame_id].pin_count_ <= 0)
+    if (pages_[frame_id].pin_count_ == 0)
         return false;
     pages_[frame_id].pin_count_--;
     if (pages_[frame_id].pin_count_ == 0)
@@ -176,8 +175,8 @@ Page *BufferPoolManager::new_page(PageId *page_id)
     frame_id_t frame_id = INVALID_FRAME_ID;
     if (!find_victim_page(&frame_id))
         return nullptr;
-    Page *dest_page = &pages_[frame_id];
     page_id->page_no = disk_manager_->allocate_page(page_id->fd);
+    Page *dest_page = &pages_[frame_id];
     update_page(dest_page, *page_id, frame_id);
     replacer_->pin(frame_id);
     dest_page->pin_count_ = 1;

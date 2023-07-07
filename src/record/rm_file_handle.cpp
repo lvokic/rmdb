@@ -40,6 +40,7 @@ Rid RmFileHandle::insert_record(char* buf, Context* context) {
     // 注意考虑插入一条记录后页面已满的情况，需要更新file_hdr_.first_free_page_no
     RmPageHandle page_handle = create_page_handle();
     int slot_no = Bitmap::first_bit(false, page_handle.bitmap, file_hdr_.num_records_per_page);
+    Bitmap::set(page_handle.bitmap, slot_no);
     memcpy(page_handle.get_slot(slot_no), buf, file_hdr_.record_size);
     page_handle.page_hdr->num_records++;
     if(page_handle.page_hdr->num_records == file_hdr_.num_records_per_page)
@@ -121,7 +122,7 @@ RmPageHandle RmFileHandle::create_new_page_handle() {
     // 2.更新page handle中的相关信息
     // 3.更新file_hdr_
     PageId *page_id = new PageId;
-    page_id->fd = fd_;
+    page_id->fd = this->fd_;
     Page *page = buffer_pool_manager_->new_page(page_id);
     RmPageHandle page_handle = RmPageHandle(&file_hdr_, page);
     page_handle.page_hdr->next_free_page_no = file_hdr_.first_free_page_no;
@@ -129,7 +130,7 @@ RmPageHandle RmFileHandle::create_new_page_handle() {
     page_handle.page_hdr->num_records = 0;
     file_hdr_.num_pages++;
     file_hdr_.first_free_page_no = page_id->page_no;
-    return RmPageHandle(&file_hdr_, page);
+    return page_handle;
 }
 
 /**

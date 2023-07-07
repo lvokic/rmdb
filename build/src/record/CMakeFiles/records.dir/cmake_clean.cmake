@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
+  "../../lib/librecords.dylib"
   "../../lib/librecords.pdb"
-  "../../lib/librecords.so"
   "CMakeFiles/records.dir/rm_file_handle.cpp.o"
   "CMakeFiles/records.dir/rm_file_handle.cpp.o.d"
   "CMakeFiles/records.dir/rm_scan.cpp.o"

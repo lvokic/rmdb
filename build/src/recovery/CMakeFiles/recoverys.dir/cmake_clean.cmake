@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
+  "../../lib/librecoverys.dylib"
   "../../lib/librecoverys.pdb"
-  "../../lib/librecoverys.so"
   "CMakeFiles/recoverys.dir/log_manager.cpp.o"
   "CMakeFiles/recoverys.dir/log_manager.cpp.o.d"
   "CMakeFiles/recoverys.dir/log_recovery.cpp.o"
