@@ -79,6 +79,9 @@ struct TabMeta {
     }
 
     /* 判断当前表中是否存在名为col_name的字段 */
+    /// @brief std::find_if: find_if( InputIt first, InputIt last, UnaryPredicate p ); 最后一项是lambda表达式
+    /// @param col_name 
+    /// @return 
     bool is_col(const std::string &col_name) const {
         auto pos = std::find_if(cols.begin(), cols.end(), [&](const ColMeta &col) { return col.name == col_name; });
         return pos != cols.end();
@@ -192,6 +195,10 @@ class DbMeta {
         return os;
     }
 
+    /// @brief 使用友元函数以访问类的私有成员和保护成员
+    /// @param is 
+    /// @param db_meta 
+    /// @return 
     friend std::istream &operator>>(std::istream &is, DbMeta &db_meta) {
         size_t n;
         is >> db_meta.name_ >> n;
